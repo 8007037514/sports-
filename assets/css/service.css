@@ -1,0 +1,20 @@
+.cd {
+    color: black;
+}
+
+.cd1{
+    color: white;
+}
+
+.faq .card{
+    background-color: transparent;
+    margin-bottom: 10px;
+}
+
+.faq .card button.btn-link{
+    color: #fff;
+    text-decoration: none;
+    width: 100%;
+    text-align: left;
+}
+

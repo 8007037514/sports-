@@ -1,0 +1,169 @@
+*{
+    margin : 0;
+    padding :0;
+    box-sizing: border-box;
+}
+
+/* //////////////////////////////// navbar-section /////////////////////////////////////////*/
+.nav-header{
+    background-image: url(https://www.shutterstock.com/image-vector/abstract-black-red-tech-wavy-260nw-758336155.jpg);
+}
+
+.navbar i{
+    display: inline;
+}
+
+.nav-header h1{
+    color: gold;
+    font-style: italic;
+    text-transform: capitalize;
+}
+
+.nav-header .navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.nav-header .navbar-brand{
+    width: 120px;
+    display: inline-block;
+}
+
+
+
+.navi{
+    /* color: #fff; */
+    font-weight: bold;
+}
+
+.nav-header .nav-item:nth-last-child(1){
+    margin-right: 40px;
+}
+
+
+.navi:hover::after{
+    width: 100%;
+    transition: all 1s;
+    
+}
+
+
+
+.nav-header .navbar-dark .navbar-nav .active>.nav-link, .appHeader .navbar-dark .navbar-nav .nav-link.active, .appHeader .navbar-dark .navbar-nav .nav-link.show, .appHeader .navbar-dark .navbar-nav .show>.nav-link {
+    color: orange !important;
+}
+
+/* .navbar-brand img{
+    width: 100%;
+} */
+
+
+                                    /* slider-section */
+
+
+
+
+.slider-info .carousel-item img{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.slider-info .carousel-item{
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 450px;
+    background-position: center;
+}
+
+
+.slider-info .carousel-item:nth-child(1){
+    background-image: url(https://media.gettyimages.com/id/1209158275/photo/illuminated-cricket-stadium.jpg?s=612x612&w=0&k=20&c=UjS4mwn_neWo0Ql9PNL5oBUoyZjHZbQJbDSjWHfs2VA=)
+}
+.slider-info .carousel-item:nth-child(2){
+    background-image: url(https://images.unsplash.com/photo-1592592878585-abcaaaaf7cd1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=812&q=80)
+}
+
+.slider-info .carousel-item:nth-child(3){
+    background-image: url(https://images.unsplash.com/photo-1599586120429-48281b6f0ece?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80)
+}
+
+.slider-info .carousel-caption {
+    bottom: auto;
+    top : 20%;
+}
+ 
+
+/***************************************** home-heading css ****************************************** */
+
+.homeHeading{
+    background-image: url('https://images.unsplash.com/photo-1671023829564-c6c647ff982e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+
+} 
+.homeHeading::before{
+    content: "";
+    background: rgba(0,0,0,.7);
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left : 0; 
+}
+.homeHeading .row{
+    z-index: 10;
+}
+
+/************************************************* video css **************************************/
+.video{
+    background-image: url('https://images.unsplash.com/photo-1671023829564-c6c647ff982e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+}
+.video::before{
+    content: "";
+    background: rgba(0,0,0,.7);
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left : 0; 
+}
+
+
+
+/************************************************ img-sction ******************************************/
+
+.img-sec{
+    background-color: skyblue;
+}
+.img-sec img{
+    height: 200px;
+    width: 250px;
+    margin-right: 25px;
+    border: 2px solid #fff;
+    
+    
+}
+
+.news-sec button{
+   background-color: darkslategray;
+   color: white;
+}
+.news-sec button:hover{
+    background-color:black;
+   
+}
+
+
+/************************************ footer css *************************************/
+
+.footer{
+    font-size: 20px;
+    text-align: center;
+    background-color: black !important;
+}
+

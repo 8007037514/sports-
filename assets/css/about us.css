@@ -1,0 +1,29 @@
+
+
+   
+
+.TestimonialSlider h3{
+   text-transform: capitalize;
+}
+
+
+.TestimonialSlider button.owl-prev {
+    position: absolute;
+    left: -74px;
+    top: 33px;
+    font-weight: bold;
+}
+.TestimonialSlider button.owl-next  {
+    position: absolute;
+    right: -74px;
+    top: 33px;
+    font-weight: bold;
+}
+.TestimonialSlider span{
+    font-size: 64px;
+}
+
+.info{
+    background-color: silver;
+}
+
